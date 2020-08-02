@@ -8,6 +8,8 @@ The prupose of this task is to to implement deep learning in communication syste
 
 ## Task Overview
 
+![task_overview](https://user-images.githubusercontent.com/48609334/89123500-ca618780-d50a-11ea-9bea-a82b58013c9e.PNG)
+
 Basically, it’s quite similar with conventional communication system where the transmitter sends signals and the receiver will try to understand what the content of that signals is. But in this task, the transmitters send signals using different modulation methods, and the receiver, a single receiver should be able to classify what kind of modulation types they are. Here, the modulated signals that want to be used are created at GNU radio. The modulated signals also exposed to channel impairment, such as CFO, AWGN, selective fading.. The generated signals were packed so that they can be used easily in typical deep learning environment. And at the receiver end, a CNN model was used to classify the signals.
 
 ## Network Architecture
