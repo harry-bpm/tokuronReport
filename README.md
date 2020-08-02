@@ -26,5 +26,6 @@ DEEPSIG DATASET: RADIOML 2016.04C (https://www.deepsig.ai/datasets)
 
 ## Output
 
+There two outputs that will be shown. The first one is a confusion matrix, which is a summary of prediction results of all modulation types on all SNR. In this output, we can see how well the model predicts the modulation type. The second is classification accuracy over different SNR. In this output, we can see how the classification accuracy gets better when the SNR value goes higher.
 
 
